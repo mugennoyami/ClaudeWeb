@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GRENZWERT – Legales Tuning &amp; Track-Setups für BMW E36 &amp; E46</title>
+  <meta name="description" content="Straßenlegales Tuning mit ABE und Teilegutachten sowie Track-Setups für BMW E36 und E46. Beratung, Eintragung und eigene CNC- und 3D-Druck-Teile.">
+  <meta name="theme-color" content="#07080a">
+  <meta property="og:title" content="GRENZWERT – Straßenlegal. Track-scharf.">
+  <meta property="og:description" content="Tuning für BMW E36 & E46: legal mit Gutachten auf der Straße, kompromisslos auf der Strecke.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<!-- SVG-Sprite: Logo und Icons, einmal definiert, überall per <use> wiederverwendet -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".5" stop-color="#8e99a8"/>
+      <stop offset="1" stop-color="#2a303a"/>
+    </linearGradient>
+  </defs>
+  <symbol id="mark" viewBox="0 0 64 64">
+    <circle cx="32" cy="32" r="22" fill="none" stroke="url(#chrome)" stroke-width="5"/>
+    <path d="M32 6v15M32 43v15M6 32h15M43 32h15" stroke="url(#chrome)" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="32" cy="32" r="6" fill="#ff2f3a"/>
+  </symbol>
+  <symbol id="i-spring" viewBox="0 0 24 24"><path d="M12 2v3M6 5l12 3-12 3 12 3-12 3 12 3M12 19v3"/></symbol>
+  <symbol id="i-wheel" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="2.5"/><path d="M12 3.5v6M12 14.5v6M3.5 12h6M14.5 12h6"/></symbol>
+  <symbol id="i-wind" viewBox="0 0 24 24"><path d="M3 9h11a3 3 0 1 0-3-3M3 15h15a3 3 0 1 1-3 3M3 12h7"/></symbol>
+  <symbol id="i-brake" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/><path d="M4.6 8.4a9 9 0 0 1 4-3.6"/></symbol>
+  <symbol id="i-light" viewBox="0 0 24 24"><path d="M4 9.5C4 7 5.5 5.5 8 5.5h2v11H8C5.5 16.5 4 15 4 12.5z"/><path d="M14 8.5l6-2.5M14 12h6M14 15.5l6 2.5"/></symbol>
+  <symbol id="i-papers" viewBox="0 0 24 24"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5"/><path d="M10 14l2 2 3.5-3.5"/></symbol>
+  <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h13l-3 4 3 4H5"/></symbol>
+  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="12" r="7"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+  <symbol id="i-cube" viewBox="0 0 24 24"><path d="M12 2.8l8 4.6v9.2l-8 4.6-8-4.6V7.4z"/><path d="M4 7.4l8 4.6 8-4.6M12 12v9.2"/></symbol>
+  <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11z"/><path d="M9.5 15a2.5 2.5 0 0 0 2.5 2.5"/></symbol>
+  <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3L2 20h20z"/><path d="M12 10v4M12 17.5v.5"/></symbol>
+</svg>
+
+<a class="skip-link" href="#main">Zum Inhalt springen</a>
+
+<header class="site-header" id="header">
+  <div class="container nav">
+    <a href="#top" class="logo" aria-label="GRENZWERT – zur Startseite">
+      <svg class="logo-mark" aria-hidden="true"><use href="#mark"/></svg>
+      <span class="logo-word">GRENZWERT</span>
+    </a>
+
+    <nav class="nav-links" id="nav" aria-label="Hauptnavigation">
+      <a href="#strasse">Straße</a>
+      <a href="#track">Track</a>
+      <a href="#modelle">Modelle</a>
+      <a href="#custom">Custom Parts</a>
+      <a href="#ablauf">Ablauf</a>
+    </nav>
+
+    <a class="btn btn-small nav-cta" href="#kontakt">Anfragen</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menü öffnen">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <svg class="spark" viewBox="0 0 24 24" aria-hidden="true" style="top:16%;left:44%;--d:0s"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+    <svg class="spark" viewBox="0 0 24 24" aria-hidden="true" style="top:62%;left:4%;--d:1.4s"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+    <svg class="spark" viewBox="0 0 24 24" aria-hidden="true" style="top:10%;right:5%;--d:2.6s"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">BMW E36 · E46 — Tuning &amp; Track</p>
+
+        <h1 class="hero-title"><span class="metal">GRENZWERT</span></h1>
+
+        <p class="hero-script">Straßenlegal. <span class="accent">Track-scharf.</span></p>
+
+        <p class="hero-lead">
+          Tuning, das durch die Abnahme kommt: Teile mit ABE und Teilegutachten für die Straße.
+          Kompromisslose Setups für die Rennstrecke. Schwerpunkt: BMW E36 &amp; E46.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#strasse">Straßen-Tuning</a>
+          <a class="btn btn-track" href="#track">Track-Setups</a>
+        </div>
+
+        <ul class="hero-tags" aria-label="Leistungen">
+          <li>ABE &amp; Teilegutachten</li>
+          <li>Eintragungs-Begleitung</li>
+          <li>CNC &amp; 3D-Druck</li>
+        </ul>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="wheel" viewBox="0 0 400 400" focusable="false">
+          <defs>
+            <radialGradient id="tireGrad" cx="50%" cy="50%" r="50%">
+              <stop offset=".78" stop-color="#0b0c0e"/>
+              <stop offset="1" stop-color="#1c2027"/>
+            </radialGradient>
+            <radialGradient id="rimGrad" cx="36%" cy="30%" r="80%">
+              <stop offset="0" stop-color="#f4f7fb"/>
+              <stop offset=".38" stop-color="#b9c2ce"/>
+              <stop offset=".72" stop-color="#4b535f"/>
+              <stop offset="1" stop-color="#171b21"/>
+            </radialGradient>
+            <linearGradient id="spokeGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#eef2f7"/>
+              <stop offset=".5" stop-color="#8a95a3"/>
+              <stop offset="1" stop-color="#363d48"/>
+            </linearGradient>
+            <g id="spoke">
+              <path d="M186 64h28q6 46 12 96h-52q6-50 12-96z" fill="url(#spokeGrad)" stroke="#07080a" stroke-width="2"/>
+            </g>
+          </defs>
+
+          <circle cx="200" cy="200" r="194" fill="url(#tireGrad)" stroke="#262b33" stroke-width="2"/>
+          <circle cx="200" cy="200" r="184" fill="none" stroke="rgba(255,255,255,.05)" stroke-width="12"/>
+          <path class="accent-arc" d="M52 150A160 160 0 0 1 150 52"/>
+          <circle cx="200" cy="200" r="150" fill="url(#rimGrad)" stroke="#07080a" stroke-width="3"/>
+          <circle cx="200" cy="200" r="136" fill="#0c0e11"/>
+
+          <g class="wheel-spin">
+            <use href="#spoke"/>
+            <use href="#spoke" transform="rotate(72 200 200)"/>
+            <use href="#spoke" transform="rotate(144 200 200)"/>
+            <use href="#spoke" transform="rotate(216 200 200)"/>
+            <use href="#spoke" transform="rotate(288 200 200)"/>
+            <circle cx="200" cy="200" r="46" fill="url(#rimGrad)" stroke="#07080a" stroke-width="2"/>
+            <g fill="#07080a">
+              <circle cx="216.5" cy="177.4" r="4.5"/>
+              <circle cx="226.6" cy="208.7" r="4.5"/>
+              <circle cx="200" cy="228" r="4.5"/>
+              <circle cx="173.4" cy="208.7" r="4.5"/>
+              <circle cx="183.5" cy="177.4" r="4.5"/>
+            </g>
+            <circle cx="200" cy="200" r="13" fill="#07080a"/>
+            <circle cx="200" cy="200" r="13" fill="none" stroke="#ff2f3a" stroke-width="2.5"/>
+          </g>
+        </svg>
+
+        <div class="hud hud-top">BMW · E36 / E46</div>
+        <div class="hud hud-bottom">Straße <span class="sep">/</span> <span class="accent">Track</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-group">
+        <span>ABE</span><i></i><span>Teilegutachten</span><i></i><span>Einzelabnahme</span><i></i><span>E36</span><i></i><span>E46</span><i></i><span>Track-Setups</span><i></i><span>CNC gefräst</span><i></i><span>3D-gedruckt</span><i></i>
+      </div>
+      <div class="marquee-group">
+        <span>ABE</span><i></i><span>Teilegutachten</span><i></i><span>Einzelabnahme</span><i></i><span>E36</span><i></i><span>E46</span><i></i><span>Track-Setups</span><i></i><span>CNC gefräst</span><i></i><span>3D-gedruckt</span><i></i>
+      </div>
+    </div>
+  </div>
+
+  <!-- STRASSE -->
+  <section class="section" id="strasse" aria-labelledby="strasse-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">01 — Straße</p>
+        <h2 id="strasse-title">Legal auf der Straße</h2>
+        <p>Tuning, das eingetragen werden kann. Wir prüfen vorab, welche Teile mit ABE, Teilegutachten oder Einzelabnahme auf dein Fahrzeug passen – bevor du Geld ausgibst.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-spring"/></svg></span>
+          <h3>Fahrwerk</h3>
+          <p>Federn und Dämpfer mit Teilegutachten oder ABE – inklusive Achsvermessung für die Abnahme.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg></span>
+          <h3>Felgen &amp; Reifen</h3>
+          <p>Rad-Reifen-Kombinationen mit Teilegutachten. Wir prüfen Einpresstiefe, Radabdeckung und Freigängigkeit.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-wind"/></svg></span>
+          <h3>Abgas &amp; Ansaugung</h3>
+          <p>Sportauspuffanlagen mit ABE. Geräuschgrenzen und Lautstärke beachten wir von Anfang an.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-brake"/></svg></span>
+          <h3>Bremsen</h3>
+          <p>Eintragungsfähige Bremsscheiben und Beläge – mit Gutachten statt Bauchgefühl.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-light"/></svg></span>
+          <h3>Beleuchtung</h3>
+          <p>Scheinwerfer und Leuchten nur mit gültigem E-Prüfzeichen. Wir sagen dir offen, was legal ist.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-papers"/></svg></span>
+          <h3>Eintragung</h3>
+          <p>Begleitung bei der Änderungsabnahme: Unterlagen, Gutachten und Termin bei der Prüforganisation.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRACK -->
+  <section class="section section-track" id="track" aria-labelledby="track-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow tag-track">02 — Track</p>
+        <h2 id="track-title">Ohne Kompromiss auf der Strecke</h2>
+        <p>Setups für geschlossene Veranstaltungen und Rennstrecken. Fokus auf Gewicht, Steifigkeit und Temperatur – nicht auf Zulassung.</p>
+      </header>
+
+      <div class="warning reveal" role="note">
+        <svg class="icon" aria-hidden="true"><use href="#i-warn"/></svg>
+        <p><strong>Hinweis:</strong> Track-Teile sind nicht ABE-geprüft und nicht für den öffentlichen Straßenverkehr bestimmt. Einsatz nur dort, wo er rechtlich erlaubt ist.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-spring"/></svg></span>
+          <h3>Gewindefahrwerk</h3>
+          <p>Feinabstimmung von Höhe, Dämpfung und Federrate – für die Strecke, nicht für den Alltag.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-wheel"/></svg></span>
+          <h3>Sturz &amp; Spur</h3>
+          <p>Sturzplatten und Spur-Setups für maximale Haftung in Kurven und beim Bremsen.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg></span>
+          <h3>Buchsen &amp; Lager</h3>
+          <p>Starre Buchsen für präzise Lenkung und direkte Rückmeldung. Nichts für den Alltag.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-brake"/></svg></span>
+          <h3>Track-Bremsen</h3>
+          <p>Rennbeläge, Stahlflex-Leitungen und Bremsenkühlung für wiederholtes Heizen.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cube"/></svg></span>
+          <h3>Leichtbau</h3>
+          <p>Halter, Blenden und Teile ohne Ballast. Was auf der Strecke nicht gebraucht wird, fliegt raus.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-drop"/></svg></span>
+          <h3>Kühlung</h3>
+          <p>Öl- und Wasserkühlung für lange Sessions. Temperaturen zählen genauso wie Leistung.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELLE -->
+  <section class="section" id="modelle" aria-labelledby="modelle-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">03 — Modelle</p>
+        <h2 id="modelle-title">BMW im Fokus</h2>
+        <p>E36 und E46 sind unser Schwerpunkt. Weitere Baureihen nehmen wir nach Anfrage auf – schreib uns, was du fährst.</p>
+      </header>
+
+      <div class="models-featured">
+        <article class="model reveal">
+          <span class="badge">Schwerpunkt</span>
+          <p class="model-code">E46</p>
+          <h3>BMW 3er</h3>
+          <p class="model-years">1998 – 2006</p>
+          <ul>
+            <li>Fahrwerk &amp; Felgen</li>
+            <li>Abgas &amp; Ansaugung</li>
+            <li>Track-Setups</li>
+          </ul>
+          <a class="model-link" href="#kontakt">Für den E46 anfragen →</a>
+        </article>
+
+        <article class="model reveal">
+          <span class="badge">Schwerpunkt</span>
+          <p class="model-code">E36</p>
+          <h3>BMW 3er</h3>
+          <p class="model-years">1990 – 2000</p>
+          <ul>
+            <li>Fahrwerk &amp; Felgen</li>
+            <li>Abgas &amp; Bremse</li>
+            <li>Track-Setups</li>
+          </ul>
+          <a class="model-link" href="#kontakt">Für den E36 anfragen →</a>
+        </article>
+      </div>
+
+      <div class="models-more reveal">
+        <a class="model-mini" href="#kontakt"><strong>E30</strong><small>1982 – 1994 · Auf Anfrage</small></a>
+        <a class="model-mini" href="#kontakt"><strong>E34</strong><small>1987 – 1996 · Auf Anfrage</small></a>
+        <a class="model-mini" href="#kontakt"><strong>E39</strong><small>1995 – 2003 · Auf Anfrage</small></a>
+        <a class="model-mini" href="#kontakt"><strong>E90 / E92</strong><small>2005 – 2013 · Auf Anfrage</small></a>
+        <a class="model-mini" href="#kontakt"><strong>F30</strong><small>2011 – 2019 · Auf Anfrage</small></a>
+        <a class="model-mini" href="#kontakt"><strong>G20</strong><small>2018 – heute · Auf Anfrage</small></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM PARTS -->
+  <section class="section section-custom" id="custom" aria-labelledby="custom-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">04 — Custom Parts <span class="badge badge-outline">In Planung</span></p>
+        <h2 id="custom-title">Eigene Teile. CNC &amp; 3D-Druck.</h2>
+        <p>Teile für E36 und E46, die es so noch nicht zu kaufen gibt. Gefräst aus dem Vollen oder gedruckt aus technischen Kunststoffen – Prototypen zuerst, Serie danach.</p>
+      </header>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-gear"/></svg></span>
+          <h3>CNC-gefräst</h3>
+          <p>Aluminium-Halter, Motor- und Getriebe-Brackets, Distanzscheiben und Adapterplatten. Für Passungen, die exakt sitzen müssen.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-cube"/></svg></span>
+          <h3>3D-gedruckt</h3>
+          <p>Innenraum-Blenden, Clips, Kabel- und Sensorhalter. Schnelle Prototypen, bevor etwas in Serie geht.</p>
+        </article>
+        <article class="card reveal">
+          <span class="card-icon"><svg class="icon" aria-hidden="true"><use href="#i-papers"/></svg></span>
+          <h3>Eigene Idee?</h3>
+          <p>Schick uns Maße oder eine Skizze. Wir prüfen Machbarkeit, Material und ob das Teil eintragungsfähig ist.</p>
+        </article>
+      </div>
+
+      <p class="note reveal">Das Material richtet sich nach dem Einsatzort: Der Motorraum braucht andere Werkstoffe als der Innenraum. Dazu beraten wir ehrlich.</p>
+    </div>
+  </section>
+
+  <!-- ABLAUF -->
+  <section class="section" id="ablauf" aria-labelledby="ablauf-title">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="eyebrow">05 — Ablauf</p>
+        <h2 id="ablauf-title">Von der Idee zur Abnahme</h2>
+      </header>
+
+      <ol class="steps">
+        <li class="reveal">
+          <span class="step-num">01</span>
+          <h3>Beratung</h3>
+          <p>Baujahr, Motor, Fahrzeugschein und dein Ziel: Straße, Track oder beides.</p>
+        </li>
+        <li class="reveal">
+          <span class="step-num">02</span>
+          <h3>Teilewahl</h3>
+          <p>Wir prüfen ABE, Gutachten und Machbarkeit – und sagen offen, was eintragungsfähig ist.</p>
+        </li>
+        <li class="reveal">
+          <span class="step-num">03</span>
+          <h3>Abnahme</h3>
+          <p>Einbau, Unterlagen und Eintragung über die Prüforganisation deiner Wahl.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section class="section section-contact" id="kontakt" aria-labelledby="kontakt-title">
+    <div class="container contact-grid">
+      <div class="reveal">
+        <p class="eyebrow">06 — Kontakt</p>
+        <h2 id="kontakt-title">Dein BMW. Dein Plan.</h2>
+        <p class="lead">Erzähl uns, was du vorhast. Je genauer Baujahr, Motor und Fahrzeugschein-Daten, desto konkreter die Antwort.</p>
+
+        <ul class="contact-list">
+          <li><strong>E-Mail</strong> <a href="mailto:kontakt@example.com">kontakt@example.com</a></li>
+          <li><strong>Standort</strong> [Ort einfügen]</li>
+        </ul>
+      </div>
+
+      <form class="form reveal" id="contact-form" data-email="kontakt@example.com">
+        <label>
+          Name
+          <input type="text" name="name" required autocomplete="name">
+        </label>
+
+        <label>
+          E-Mail
+          <input type="email" name="email" required autocomplete="email">
+        </label>
+
+        <label>
+          Fahrzeug
+          <select name="model">
+            <option>E36</option>
+            <option>E46</option>
+            <option>E30</option>
+            <option>E34</option>
+            <option>E39</option>
+            <option>E90 / E92</option>
+            <option>F30</option>
+            <option>G20</option>
+            <option>Anderes Modell</option>
+          </select>
+        </label>
+
+        <fieldset class="segmented">
+          <legend>Ziel</legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="goal" value="Straße" checked><span>Straße</span></label>
+            <label class="pill"><input type="radio" name="goal" value="Track"><span>Track</span></label>
+            <label class="pill"><input type="radio" name="goal" value="Beides"><span>Beides</span></label>
+          </div>
+        </fieldset>
+
+        <label>
+          Nachricht
+          <textarea name="message" rows="5" placeholder="Was soll gemacht werden? Welche Teile, welches Ziel?"></textarea>
+        </label>
+
+        <label class="checkbox">
+          <input type="checkbox" name="privacy" required>
+          <span>Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen.</span>
+        </label>
+
+        <button class="btn btn-primary" type="submit">Anfrage senden</button>
+        <p class="form-note">Das Formular öffnet dein E-Mail-Programm. Auf unserem Server wird nichts gespeichert.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a href="#top" class="logo" aria-label="GRENZWERT – nach oben">
+        <svg class="logo-mark" aria-hidden="true"><use href="#mark"/></svg>
+        <span class="logo-word">GRENZWERT</span>
+      </a>
+      <p class="footer-claim">Tuning für BMW E36 &amp; E46. Straßenlegal mit Gutachten, kompromisslos auf der Strecke.</p>
+    </div>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#strasse">Straße</a>
+      <a href="#track">Track</a>
+      <a href="#custom">Custom Parts</a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+    </nav>
+
+    <p class="disclaimer">
+      Alle Angaben ohne Gewähr. Track-Komponenten sind nicht für den öffentlichen Straßenverkehr zugelassen.
+      Änderungen am Fahrzeug müssen vor der Nutzung im öffentlichen Straßenverkehr eingetragen bzw. abgenommen sein.
+    </p>
+
+    <p class="copy">© 2026 GRENZWERT</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
