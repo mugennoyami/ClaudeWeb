@@ -1,4 +1,4 @@
-# GRENZWERT – Website
+# COLDSTART – Website
 
 Landing Page für legales Tuning (Straße mit ABE / Teilegutachten) und Track-Setups, Schwerpunkt BMW E36 & E46. Eigene CNC- und 3D-Druck-Teile sind als "In Planung" angekündigt.
 
@@ -23,13 +23,18 @@ Dann `http://localhost:8000` im Browser öffnen. Alternativ reicht ein Doppelkli
 | `assets/css/fonts.css` | `@font-face`-Regeln, zeigen auf die lokalen Dateien |
 | `assets/fonts/` | Schriften selbst gehostet (Metal Mania, Barlow, Barlow Condensed, UnifrakturMaguntia, Google Fonts / SIL OFL) |
 | `assets/js/main.js` | Mobiles Menü, Scroll-Einblendungen, Kontaktformular (öffnet ein `mailto:`) |
+| `assets/img/logo-coldstart.webp` | COLDSTART-Logo mit transparentem Hintergrund (Header, Hero, Footer) |
+| `assets/img/wheel-coldstart.webp` | Felgen-Designstudie, rote Akzente auf Türkis umgefärbt (Hero) |
+| `assets/img/barbed-wire.svg` | Stacheldraht-Trenner (Hintergrund-Kachel) |
 | `assets/img/favicon.svg` | Favicon |
 
-Das Logo ist ein SVG-Symbol (`id="mark"`) in `index.html`. Icons liegen im selben Sprite.
+Icons liegen als SVG-Symbole im Sprite am Anfang von `index.html`.
+
+Die Akzentfarbe ist Türkis (`--accent: #41c4d9` in `styles.css`), abgeleitet von den Blautönen im Logo.
 
 ## Vor dem Livegang
 
-1. **Name prüfen.** "GRENZWERT" ist ein Vorschlag. Vor der Übernahme Marke (DPMA), Domain und Social-Handles prüfen. Zum Umbenennen: `grep -rn GRENZWERT .`
+1. **Marke prüfen.** Vor dem Livegang Marke (DPMA), Domain und Social-Handles für COLDSTART prüfen.
 2. **Kontakt-E-Mail eintragen.** `kontakt@example.com` steht in `index.html` (Kontaktliste und `data-email` am Formular), `impressum.html` und `datenschutz.html`.
 3. **Standort eintragen.** Platzhalter `[Ort einfügen]` in `index.html`.
 4. **Impressum und Datenschutz ausfüllen.** Alle rot markierten Stellen ersetzen und rechtlich prüfen lassen.

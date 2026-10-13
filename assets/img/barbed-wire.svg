@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24" viewBox="0 0 120 24" fill="none" stroke="#9aa6b4" stroke-width="1.2" stroke-linecap="round">
+  <!-- Zwei verdrillte Stränge, die sich bei jedem Stachel kreuzen -->
+  <path d="M0 12 Q15 3 30 12 T60 12 T90 12 T120 12"/>
+  <path d="M0 12 Q15 21 30 12 T60 12 T90 12 T120 12" stroke-width="0.9"/>
+  <!-- Stacheln an den Kreuzungen -->
+  <path d="M30 12 l-4 -7 M30 12 l4 7 M30 12 l-6 3 M30 12 l6 -3"/>
+  <path d="M90 12 l-4 -7 M90 12 l4 7 M90 12 l-6 3 M90 12 l6 -3"/>
+  <path d="M60 12 l-3 -5 M60 12 l3 5" stroke-width="0.9"/>
+</svg>
