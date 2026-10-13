@@ -8,6 +8,24 @@
   onScroll();
   window.addEventListener('scroll', onScroll, { passive: true });
 
+  /* Felge dreht sich beim Scrollen mit (ohne Bewegung bei reduzierter Animation) */
+  const wheelWrap = document.querySelector('.hero-wheel-wrap');
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (wheelWrap && !reduceMotion) {
+    let frame = null;
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (frame) return;
+        frame = window.requestAnimationFrame(() => {
+          wheelWrap.style.setProperty('--turn', `${(window.scrollY * 0.12) % 360}deg`);
+          frame = null;
+        });
+      },
+      { passive: true }
+    );
+  }
+
   /* Mobiles Menü */
   const setMenu = (open) => {
     nav.classList.toggle('open', open);

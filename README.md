@@ -44,6 +44,8 @@ Die Akzentfarbe ist Türkis (`--accent: #41c4d9` in `styles.css`), abgeleitet vo
 ## Hinweise
 
 - **Kontaktformular:** Es öffnet das E-Mail-Programm der Besucher, auf dem Server wird nichts gespeichert. Für ein Formular mit Speicherung braucht es einen Formular-Dienst oder ein Backend.
+- **Felge:** dreht sich in 3D wie auf einem Drehteller (CSS-Animation `turntable`) und zusätzlich mit dem Scrollen (`--turn`, `assets/js/main.js`). Bei `prefers-reduced-motion` bleibt sie still.
+- **Stacheldraht:** Trenner und Seitenstränge sind SVG-Kacheln in `assets/img/`. Die Seitenstränge sind auf Handys ausgeblendet.
 - **Schriften:** Lokal gehostet, damit beim Aufruf keine Verbindung zu Google-Servern entsteht.
 - **Custom-Parts-Shop (später):** Dafür werden Widerrufsbelehrung, AGB und ein Zahlungsanbieter nötig. Das ist bewusst noch nicht enthalten.
 - **Barrierefreiheit:** Reduzierte Bewegung wird respektiert (`prefers-reduced-motion`), Fokuszustände sind sichtbar, das Menü schließt mit Escape.

@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
   <rect width="64" height="64" rx="14" fill="#030405"/>
-  <!-- Vierzackiger Stern aus dem Logo, in Türkis -->
-  <path d="M32 6l4 22 22 4-22 4-4 22-4-22-22-4 22-4z" fill="#41c4d9"/>
-  <path d="M32 18l1.6 12.4L46 32l-12.4 1.6L32 46l-1.6-12.4L18 32l12.4-1.6z" fill="#e6f7fa" opacity=".55"/>
+  <!-- Dorniger Vierzack-Stern, Motiv aus dem Logo, kräftig genug für 16 px -->
+  <path d="M32 3C34.5 22 42 29.5 61 32 42 34.5 34.5 42 32 61 29.5 42 22 34.5 3 32 22 29.5 29.5 22 32 3Z" fill="#41c4d9"/>
+  <path d="M32 14C33.4 26 38 30.6 50 32 38 33.4 33.4 38 32 50 30.6 38 26 33.4 14 32 26 30.6 30.6 26 32 14Z" fill="#e6f7fa" opacity=".55"/>
+  <circle cx="32" cy="32" r="3.2" fill="#030405"/>
 </svg>

@@ -10,6 +10,8 @@
   <meta property="og:description" content="Tuning für BMW E36 & E46: legal mit Gutachten auf der Straße, kompromisslos auf der Strecke.">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
   <link rel="stylesheet" href="assets/css/fonts.css">
   <link rel="stylesheet" href="assets/css/styles.css">
   <script>document.documentElement.classList.add('js');</script>
@@ -59,6 +61,8 @@
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero-bg" aria-hidden="true"></div>
+    <div class="barbed-side barbed-side-left" aria-hidden="true"></div>
+    <div class="barbed-side barbed-side-right" aria-hidden="true"></div>
 
     <svg class="spark" viewBox="0 0 24 24" aria-hidden="true" style="top:16%;left:44%;--d:0s"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
     <svg class="spark" viewBox="0 0 24 24" aria-hidden="true" style="top:64%;left:4%;--d:1.4s"><path d="M12 0l2 10 10 2-10 2-2 10-2-10L0 12l10-2z"/></svg>
@@ -76,7 +80,7 @@
 
         <p class="hero-lead">
           Tuning, das durch die Abnahme kommt: Teile mit ABE und Teilegutachten für die Straße.
-          Kompromisslose Setups für die Rennstrecke. Schwerpunkt: BMW E36 &amp; E46.
+          Kompromisslose Setups für die Rennstrecke. Fokus: BMW E36, dann E46.
         </p>
 
         <div class="hero-actions">
@@ -92,7 +96,9 @@
       </div>
 
       <div class="hero-visual">
-        <img class="hero-wheel" src="assets/img/wheel-coldstart.webp" alt="Felgen-Designstudie in Anthrazit mit türkisen Akzenten" width="1000" height="1000">
+        <div class="hero-wheel-wrap">
+          <img class="hero-wheel" src="assets/img/wheel-coldstart.webp" alt="Felgen-Designstudie in Anthrazit mit türkisen Akzenten" width="1000" height="1000">
+        </div>
         <div class="hud hud-top">BMW · E36 / E46</div>
         <div class="hud hud-bottom">Straße <span class="sep">/</span> <span class="accent">Track</span></div>
       </div>
@@ -159,6 +165,7 @@
 
   <!-- TRACK -->
   <section class="section section-track" id="track" aria-labelledby="track-title">
+    <div class="barbed-side barbed-side-left" aria-hidden="true"></div>
     <div class="container">
       <header class="section-head reveal">
         <p class="eyebrow tag-track">02 — Track</p>
@@ -212,25 +219,12 @@
       <header class="section-head reveal">
         <p class="eyebrow">03 — Modelle</p>
         <h2 id="modelle-title">BMW im Fokus</h2>
-        <p>E36 und E46 sind unser Schwerpunkt. Weitere Baureihen nehmen wir nach Anfrage auf – schreib uns, was du fährst.</p>
+        <p>Der E36 ist unser Fokus, direkt danach kommt der E46. Weitere Baureihen nehmen wir nach Anfrage auf – schreib uns, was du fährst.</p>
       </header>
 
       <div class="models-featured">
         <article class="model reveal">
-          <span class="badge">Schwerpunkt</span>
-          <p class="model-code">E46</p>
-          <h3>BMW 3er</h3>
-          <p class="model-years">1998 – 2006</p>
-          <ul>
-            <li>Fahrwerk &amp; Felgen</li>
-            <li>Abgas &amp; Ansaugung</li>
-            <li>Track-Setups</li>
-          </ul>
-          <a class="model-link" href="#kontakt">Für den E46 anfragen →</a>
-        </article>
-
-        <article class="model reveal">
-          <span class="badge">Schwerpunkt</span>
+          <span class="badge">Fokus</span>
           <p class="model-code">E36</p>
           <h3>BMW 3er</h3>
           <p class="model-years">1990 – 2000</p>
@@ -240,6 +234,19 @@
             <li>Track-Setups</li>
           </ul>
           <a class="model-link" href="#kontakt">Für den E36 anfragen →</a>
+        </article>
+
+        <article class="model reveal">
+          <span class="badge badge-outline">Schwerpunkt</span>
+          <p class="model-code">E46</p>
+          <h3>BMW 3er</h3>
+          <p class="model-years">1998 – 2006</p>
+          <ul>
+            <li>Fahrwerk &amp; Felgen</li>
+            <li>Abgas &amp; Ansaugung</li>
+            <li>Track-Setups</li>
+          </ul>
+          <a class="model-link" href="#kontakt">Für den E46 anfragen →</a>
         </article>
       </div>
 
@@ -254,8 +261,11 @@
     </div>
   </section>
 
+  <div class="barbed" aria-hidden="true"></div>
+
   <!-- CUSTOM PARTS -->
   <section class="section section-custom" id="custom" aria-labelledby="custom-title">
+    <div class="barbed-side barbed-side-right" aria-hidden="true"></div>
     <div class="container">
       <header class="section-head reveal">
         <p class="eyebrow">04 — Custom Parts <span class="badge badge-outline">In Planung</span></p>
@@ -312,6 +322,8 @@
       </ol>
     </div>
   </section>
+
+  <div class="barbed" aria-hidden="true"></div>
 
   <!-- KONTAKT -->
   <section class="section section-contact" id="kontakt" aria-labelledby="kontakt-title">
