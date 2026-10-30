@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BMW Teileatlas E36 & E46 – COLDSTART</title>
+  <meta name="description" content="BMW E36 und E46 Teileatlas: Fahrzeug auswählen, Hauptgruppen und Unterbaugruppen erkunden. Keine unlizenzierte Übernahme von Explosionszeichnungen.">
+  <meta name="theme-color" content="#030405">
+  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="/assets/css/katalog.css">
+  <script src="/assets/js/boot.js"></script>
+</head>
+<body>
+<div id="site-header"></div>
+<main id="main" class="container atlas-page">
+  <header class="page-top atlas-head">
+    <p class="eyebrow eyebrow-accent">COLDSTART // Teileatlas</p>
+    <h1 class="page-title">Dein BMW. Jede Baugruppe.</h1>
+    <p class="page-lead">E36 und E46 erkunden – von Kurbeltrieb und Hinterachse bis zum HiFi-System. Fahrzeugansichten und Navigation sind eigenständig gestaltet. Original-Bildtafeln benötigen eine Nutzungslizenz.</p>
+  </header>
+  <section class="atlas-config" aria-label="Fahrzeugkonfiguration">
+    <div class="atlas-model-switch" role="group" aria-label="Baureihe">
+      <button class="atlas-pill active" data-series="E36" type="button" aria-pressed="true">BMW E36 <small>1990–2000</small></button>
+      <button class="atlas-pill" data-series="E46" type="button" aria-pressed="false">BMW E46 <small>1998–2006</small></button>
+    </div>
+    <div class="atlas-fields">
+      <label>Karosserie<select id="atlas-body"></select></label>
+      <label>Motorisierung<select id="atlas-engine"></select></label>
+      <label>Produktionsmonat<input id="atlas-date" type="month" aria-describedby="atlas-fitment"></label>
+    </div>
+    <p class="atlas-disclaimer" id="atlas-fitment">Die Auswahl dient der Navigation; eine exakte Teilezuordnung per VIN/SA-Code ist noch nicht implementiert.</p>
+  </section>
+  <section class="atlas-stage" aria-label="Interaktive Fahrzeugansicht">
+    <div class="atlas-stage-top">
+      <div><span class="atlas-kicker">FAHRZEUG // <span id="atlas-series-title">E36</span></span><h2 id="atlas-car-title">3er E36 · Frontansicht</h2></div>
+      <div class="atlas-zoom-tools" role="group" aria-label="Fahrzeugansicht steuern">
+        <button id="atlas-zoom-out" type="button" aria-label="Verkleinern">−</button>
+        <output id="atlas-zoom-value" aria-live="polite">100 %</output>
+        <button id="atlas-zoom-in" type="button" aria-label="Vergrößern">+</button>
+        <button id="atlas-reset" type="button">Reset</button>
+      </div>
+    </div>
+    <div id="atlas-viewport" class="atlas-viewport" tabindex="0" aria-label="BMW Frontansicht. Mausrad zum Zoomen, ziehen zum Verschieben, Pfeiltasten zum Verschieben, Plus und Minus zum Zoomen.">
+      <div id="atlas-car-transform" class="atlas-car-transform"></div>
+    </div>
+    <div class="atlas-stage-bottom"><span>INTERAKTIVE EIGENZEICHNUNG · KEIN BMW-OEM-BILD</span><span>Mausrad: Zoom · Ziehen: Pan · Doppelklick: Reset</span></div>
+  </section>
+  <section class="atlas-browser" aria-label="Teilekatalog">
+    <div class="atlas-browser-head">
+      <div><p class="eyebrow eyebrow-accent">BAUGRUPPEN // KATALOG</p><h2>Finde deine Baugruppe</h2></div>
+      <label class="atlas-search-label"><span class="sr-only">Baugruppe suchen</span><input type="search" id="atlas-search" placeholder="Suche: Kolben, Stoßdämpfer, Audio …" autocomplete="off"></label>
+    </div>
+    <nav id="atlas-breadcrumbs" class="atlas-breadcrumbs" aria-label="Katalogpfad"></nav>
+    <div class="atlas-catalog-layout">
+      <div id="atlas-group-list" class="atlas-group-list" aria-label="Hauptgruppen"></div>
+      <div id="atlas-group-detail" class="atlas-group-detail" aria-live="polite"></div>
+    </div>
+  </section>
+  <aside class="atlas-rights">
+    <h2>Hinweis zu Explosionszeichnungen</h2>
+    <p>Dieser Teileatlas ist ein <strong>funktionaler Prototyp</strong>. Die 30 Hauptgruppen sind navigierbar, aber es wurden keine Leebmann24- oder BMW-Bildtafeln, Positionsnummern oder vollständigen Teilenummern-Daten übernommen. Eine entsprechende Bild- und Datenlizenz ist derzeit nicht nachgewiesen.</p>
+    <a class="btn btn-ghost" href="https://www.leebmann24.com/de/de/collection/bmw-ersatzteile-10004" target="_blank" rel="noopener noreferrer">Originalkatalog bei Leebmann24 öffnen ↗</a>
+  </aside>
+</main>
+<div id="site-footer"></div>
+<script type="module" src="/assets/js/katalog.js"></script>
+</body>
+</html>

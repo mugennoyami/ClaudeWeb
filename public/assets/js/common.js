@@ -53,6 +53,7 @@ const HEADER = `
       <a href="/#strasse">Straße</a>
       <a href="/#track">Track</a>
       <a href="/#modelle">Modelle</a>
+      <a href="/katalog">Teileatlas</a>
       <a href="/shop">Shop</a>
       <a href="/#kontakt">Kontakt</a>
     </nav>
@@ -89,6 +90,7 @@ const FOOTER = `
     <div class="footer-col">
       <h4>Service</h4>
       <ul>
+        <li><a href="/katalog">BMW Teileatlas</a></li>
         <li><a href="/versand">Versand &amp; Zahlung</a></li>
         <li><a href="/widerruf">Widerruf &amp; Rückgabe</a></li>
         <li><a href="/agb">AGB</a></li>
